@@ -6,14 +6,13 @@ Priority: optional
 # Homepage: <enter URL here; no default>
 
 Package: styla-dependencies-local
-Version: 1.2 
+Version: 1.3
 Maintainer: Sven Ehlert <sven@styla.com>
 # Pre-Depends: <comma-separated list of packages>
 
-# backend-build 
+# backend-build
 # ansible + dependencies
-# awscli is unfortunately never the latest version, no ppa found
-Depends: ant,awscli,virtualenv-local,libffi-dev,libssl-dev
+Depends: ant,virtualenv-local,libffi-dev,libssl-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
