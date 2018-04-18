@@ -6,14 +6,14 @@ Priority: optional
 # Homepage: <enter URL here; no default>
 
 Package: styla-dependencies-local
-Version: 1.4.1
+Version: 1.5
 Maintainer: Sven Ehlert <sven@styla.com>
 # Pre-Depends: <comma-separated list of packages>
 
-# backend-build
+# backend-build (java)
 # node
 # ansible + dependencies
-Depends: ant,nodejs,npm,nodeenv,virtualenv-local,libffi-dev,libssl-dev
+Depends: openjdk-8-jdk,openjdk-8-source,ant,nodejs,npm,nodeenv,virtualenv-local,libffi-dev,libssl-dev
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
