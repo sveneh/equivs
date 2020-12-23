@@ -6,12 +6,13 @@ Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 3.9.2
 
-Package: wuerth-dependencies-local
-Version: 1.2
+Package: wcs-dependencies-local
+Version: 1.0
 Maintainer: Sven Ehlert <sven.ehlert@outlook.com>
 # Pre-Depends: <comma-separated list of packages>
-# build, S3 access, Code Ready Containers
-Depends: build-essential,default-jdk,php-cli,awscli,qemu-kvm,libvirt-daemon,libvirt-daemon-system,network-manager
+# build, S3 access
+Depends: build-essential, nodejs, php-cli,
+	awscli, s3cmd
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
 # Provides: <comma-separated list of packages>
@@ -23,4 +24,4 @@ Depends: build-essential,default-jdk,php-cli,awscli,qemu-kvm,libvirt-daemon,libv
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: Wuerth dependencies
+Description: Wuerth Cloud Service dependencies
