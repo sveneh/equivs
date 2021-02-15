@@ -11,7 +11,7 @@ Version: 1.0
 Maintainer: Sven Ehlert <sven.ehlert@outlook.com>
 # Pre-Depends: <comma-separated list of packages>
 # build, S3 access
-Depends: build-essential, nodejs, php-cli,
+Depends: build-essential, nodejs, npm, php-cli,
 	awscli, s3cmd
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
